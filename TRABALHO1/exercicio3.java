@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+         
+        System.out.print("Insira o valor da temperatura em Celsius: ");
+        float celsius = sc.nextFloat();
+        
+        double fahrenheit = (celsius * 9/5) + 32;
+         
+        System.out.printf("Fahrenheit = %.2f", fahrenheit);
+        sc.close();
+    }
+}
